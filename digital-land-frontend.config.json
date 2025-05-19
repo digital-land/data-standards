@@ -2,5 +2,6 @@
   "scssPath": "./src/scss",
   "jsOutputPath": "assets/js",
   "stylesheetsOutputPath": "assets/css",
-  "watchPaths": "'./src/scss/**/*.scss' './src/javascripts/**/*.js'"
+  "watchPaths": "'./src/scss/**/*.scss' './src/javascripts/**/*.js'",
+  "digitalLandFrontendPath": "node_modules/@planning-data/digital-land-frontend/"
 }
