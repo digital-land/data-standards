@@ -15,7 +15,7 @@
     "watch": "npm-run-all --parallel watch:*",
     "serve": "npm-run-all --parallel serve:*",
     "serve:sync": "browser-sync start --config 'browser-sync.js'",
-    "nps": "nps -c ./node_modules/digital-land-frontend/package-scripts.js",
+    "nps": "nps -c ./node_modules/@planning-data/digital-land-frontend/package-scripts.js",
     "postinstall": "npm run nps copy.javascripts && npm run nps build.stylesheets",
     "start": "make serve & npm-run-all --parallel build serve watch"
   },
@@ -26,7 +26,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "digital-land-frontend": "https://gitpkg.now.sh/digital-land/digital-land-frontend/package?main",
+    "@planning-data/digital-land-frontend": "^0.3.4",
     "govuk-frontend": "^4.0.1"
   },
   "devDependencies": {
